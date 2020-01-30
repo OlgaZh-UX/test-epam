@@ -12,7 +12,7 @@ var multiItemSlider = (function () {
         itemWidth = parseFloat(getComputedStyle(sliderItems[0]).width), // ширина одного элемента    
         html = mainElement.innerHTML,
         positionLeftItem = 0, // позиция левого активного элемента
-        transform = 0, // значение транфсофрмации .weather-day-list
+        transform = 0, // значение трансформации .weather-day-list
         step = itemWidth / wrapperWidth * 100, // величина шага (для трансформации)
         items = []; // массив элементов
       
